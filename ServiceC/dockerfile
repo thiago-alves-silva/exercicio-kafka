@@ -1,0 +1,6 @@
+FROM node:lts-alpine
+WORKDIR /app
+COPY package.json .
+COPY src ./src
+RUN npm install
+ENTRYPOINT [ "node", "src/app.js" ]

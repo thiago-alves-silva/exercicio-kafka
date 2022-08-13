@@ -1,0 +1,15 @@
+{
+  "name": "service-c",
+  "version": "1.0.0",
+  "description": "Consumidor de mensagens Kafka com armazenamento no MonoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "mongoose": "^6.5.2"
+  }
+}
