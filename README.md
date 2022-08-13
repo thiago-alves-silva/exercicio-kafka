@@ -1,0 +1,2 @@
+# exercicio-kafka
+Aplicação encapsulada em Docker que gera um ambiente com uma aplicação contendo um serviço em Node.js conectado ao Kafka que faz o papel de Producer, recebendo objetos no formato JSON através de requisição POST por uma rota do Express.js e enviando ao Topic do Kafka. Outro serviço em Node.js faz o papel de Consumer lendo as mensagens do tópico e salvando em uma Collection do MongoDB.
